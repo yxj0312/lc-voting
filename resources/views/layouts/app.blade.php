@@ -20,6 +20,19 @@
         <header class="flex item-center justify-between px-8 py-4">
             <a href="#" class="">Laracasts Logo</a>
             <div>
+                @if (Route::has('login'))
+                    <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                        @auth
+                            <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+                        @else
+                            <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+
+                            @if (Route::has('register'))
+                                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                            @endif
+                        @endauth
+                    </div>
+                @endif
                 <a href="#" class="">
                     <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp" alt="avatar" class="w-10 h-10 rounded-full">
                 </a>
