@@ -23,7 +23,15 @@
                 @if (Route::has('login'))
                     <div class="px-6 py-4">
                         @auth
-                            <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+                            <form method="POST" action="{{ route('logout') }}">
+                                @csrf
+
+                                <a :href="route('logout')"
+                                        onclick="event.preventDefault();
+                                                    this.closest('form').submit();">
+                                    {{ __('Log out') }}
+                                </a>
+                            </form>
                         @else
                             <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
