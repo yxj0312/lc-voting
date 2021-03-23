@@ -17,11 +17,11 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="font-sans text-gray-900 text-sm">
-        <header class="flex item-center justify-between px-8 py-4">
+        <header class="flex items-center justify-between px-8 py-4">
             <a href="#" class="">Laracasts Logo</a>
-            <div>
+            <div class="flex items-center">
                 @if (Route::has('login'))
-                    <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                    <div class="px-6 py-4">
                         @auth
                             <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
                         @else
@@ -36,7 +36,7 @@
                 <a href="#" class="">
                     <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp" alt="avatar" class="w-10 h-10 rounded-full">
                 </a>
-            </div>.
+            </div>
         </header>
     </body>
 </html>
