@@ -48,10 +48,10 @@
         </header>
 
         <main class="container mx-auto max-w-custom flex">
-            <div style="max-width:280px;margin-right: 20px">
+            <div class="w-70 mr-5">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, iste eveniet nesciunt nam error, minima voluptate maiores impedit molestias expedita nemo earum placeat, hic quasi incidunt! Blanditiis ab reiciendis voluptatem.
             </div>
-            <div style="max-width:700px">
+            <div class="w-175">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, iste eveniet nesciunt nam error, minima voluptate maiores impedit molestias expedita nemo earum placeat, hic quasi incidunt! Blanditiis ab reiciendis voluptatem.
             </div>
         </main>
