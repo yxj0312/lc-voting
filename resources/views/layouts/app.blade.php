@@ -18,7 +18,7 @@
     </head>
     <body class="font-sans text-gray-900 text-sm">
         <header class="flex items-center justify-between px-8 py-4">
-            <a href="#" class="">Laracasts Logo</a>
+            <a href="#" class=""><img src="{{ asset('img/logo.svg') }}" alt="logo"></a>
             <div class="flex items-center">
                 @if (Route::has('login'))
                     <div class="px-6 py-4">
