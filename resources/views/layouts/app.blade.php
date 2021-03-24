@@ -46,5 +46,14 @@
                 </a>
             </div>
         </header>
+
+        <main class="container mx-auto flex" style="max-width:1000px">
+            <div style="max-width:280px;margin-right: 20px">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, iste eveniet nesciunt nam error, minima voluptate maiores impedit molestias expedita nemo earum placeat, hic quasi incidunt! Blanditiis ab reiciendis voluptatem.
+            </div>
+            <div style="max-width:700px">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, iste eveniet nesciunt nam error, minima voluptate maiores impedit molestias expedita nemo earum placeat, hic quasi incidunt! Blanditiis ab reiciendis voluptatem.
+            </div>
+        </main>
     </body>
 </html>
