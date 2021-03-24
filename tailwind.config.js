@@ -12,6 +12,9 @@ module.exports = {
             colors: {
                 'gray-background': '#f7f8fc',
             },
+            maxWidth: {
+                custom:'62.5rem'
+            },
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
