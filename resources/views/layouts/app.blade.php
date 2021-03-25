@@ -74,7 +74,10 @@
                         </li>
                     </ul>
                 </nav>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, iste eveniet nesciunt nam error, minima voluptate maiores impedit molestias expedita nemo earum placeat, hic quasi incidunt! Blanditiis ab reiciendis voluptatem.
+
+                <div class="mt-8">
+                    {{ $slot }}
+                </div>
             </div>
         </main>
     </body>
