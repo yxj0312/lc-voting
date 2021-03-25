@@ -52,6 +52,13 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, iste eveniet nesciunt nam error, minima voluptate maiores impedit molestias expedita nemo earum placeat, hic quasi incidunt! Blanditiis ab reiciendis voluptatem.
             </div>
             <div class="w-175">
+                <nav class="flex items-center justify-between text-xs">
+                    <ul class="flex uppercase font-semibold space-x-10">
+                        <li>
+                            <a href="" class="">All ideas(87)</a>
+                        </li>
+                    </ul>
+                </nav>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, iste eveniet nesciunt nam error, minima voluptate maiores impedit molestias expedita nemo earum placeat, hic quasi incidunt! Blanditiis ab reiciendis voluptatem.
             </div>
         </main>
