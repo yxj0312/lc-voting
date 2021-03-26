@@ -26,8 +26,11 @@ module.exports = {
                 custom:'62.5rem'
             },
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
             },
+            fontSize: {
+                xxs: ['0.625rem', { lineHeight: '1rem' }]
+            }
         },
     },
 

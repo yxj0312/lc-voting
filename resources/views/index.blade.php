@@ -36,7 +36,7 @@
                     <div class="text-gray-200">Votes</div>
 
                     <div class="mt-8">
-                        <button class="w-20 bg-gray-200 border border-gray-200 hover:border-gray-400 transition duration-150 ease-in font-bold text-xs uppercase rounded-xl px-4 py-3">Vote</button>
+                        <button class="w-20 bg-gray-200 border border-gray-200 hover:border-gray-400 transition duration-150 ease-in font-bold text-xxs uppercase rounded-xl px-4 py-3">Vote</button>
                     </div>
 
                 </div>
