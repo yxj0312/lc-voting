@@ -34,12 +34,16 @@
                 <div class="text-center">
                     <div class="font-seminbold text-2xl">12</div>
                     <div class="text-gray-200">Votes</div>
-
-                    <div class="mt-8">
-                        <button class="w-20 bg-gray-200 border border-gray-200 hover:border-gray-400 transition duration-150 ease-in font-bold text-xxs uppercase rounded-xl px-4 py-3">Vote</button>
-                    </div>
-
                 </div>
+
+                <div class="mt-8">
+                    <button class="w-20 bg-gray-200 border border-gray-200 hover:border-gray-400 transition duration-150 ease-in font-bold text-xxs uppercase rounded-xl px-4 py-3">Vote</button>
+                </div>
+            </div>
+            <div class="flex px-2 py-6">
+                <a href="#" class="">
+                    <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
+                </a>
             </div>
         </div><!-- end idea-container -->
     </div><!-- end ideas-container -->
