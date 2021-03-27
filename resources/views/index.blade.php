@@ -29,7 +29,7 @@
     </div><!-- end filter -->
 
     <div class="ideas-container space-y-6 my-6">
-        <div class="idea-container hover:shadow-card transition duration-150 ease-in bg-white rounded-xl flex">
+        <div class="idea-container hover:shadow-card transition duration-150 ease-in bg-white rounded-xl flex cursor-pointer">
             <div class="border-r border-gray-100 px-5 py-8">
                 <div class="text-center">
                     <div class="font-seminbold text-2xl">12</div>
