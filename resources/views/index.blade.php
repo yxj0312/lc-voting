@@ -48,7 +48,7 @@
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
-                    <div class="text-gray-600 mt-3">
+                    <div class="text-gray-600 mt-3 line-clamp-3">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi sed maxime ea nostrum, minus, laboriosam ipsum tempora hic inventore quasi modi dolore iusto sint necessitatibus molestiae omnis tenetur ullam ex?
                     </div>
 
