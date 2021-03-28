@@ -49,7 +49,12 @@
 
         <main class="container mx-auto max-w-custom flex">
             <div class="w-70 mr-5">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, iste eveniet nesciunt nam error, minima voluptate maiores impedit molestias expedita nemo earum placeat, hic quasi incidunt! Blanditiis ab reiciendis voluptatem.
+                <div class="border-2 border-blue rounded-xl mt-16">
+                    <div class="text-center px-6 py-2 pt-6">
+                        <h3 class="font-semibold text-base">Add an idea</h3>
+                        <p class="text-xs mt-4">Let us know what you would like and we'll take a look over!</p>
+                    </div>
+                </div>
             </div>
             <div class="w-175">
                 <nav class="flex items-center justify-between text-xs">
