@@ -60,12 +60,19 @@
                             <input type="text" class="text-xm w-full bg-gray-100 border-none rounded-xl placeholder-gray-900 px-4 py-2" placeholder="Your Idea">
                         </div>
                         <div>
-                            <select name="category_add" id="category_add" class="w-full bg-gray-100 rounded-xl border-none px-4 py-2">
+                            <select name="category_add" id="category_add" class="w-full bg-gray-100 text-sm rounded-xl border-none px-4 py-2">
                                 <option value="Category One" class="">Category One</option>
                                 <option value="Category One" class="">Category One</option>
                                 <option value="Category One" class="">Category One</option>
                                 <option value="Category One" class="">Category One</option>
                             </select>
+                        </div>
+
+                        <div>
+                            <textarea name="idea" id="idea" cols="30" rows="4" 
+                            class="w-full bg-gray-100 border-none rounded-xl placeholder-gray-900 text-sm px-4 py-2"
+                            placeholder="Describe your idea"
+                            ></textarea>
                         </div>
 
                     </form>
