@@ -40,16 +40,16 @@
                     <button class="w-20 bg-gray-200 border border-gray-200 hover:border-gray-400 transition duration-150 ease-in font-bold text-xxs uppercase rounded-xl px-4 py-3">Vote</button>
                 </div>
             </div>
-            <div class="flex px-2 py-6">
+            <div class="flex flex-1 px-2 py-6">
                 <a href="#" class="flex-none">
                     <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
                 </a>
-                <div class="mx-4">
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
                     <div class="text-gray-600 mt-3 line-clamp-3">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi sed maxime ea nostrum, minus, laboriosam ipsum tempora hic inventore quasi modi dolore iusto sint necessitatibus molestiae omnis tenetur ullam ex?
+                        Lorem ipsum dolor sit, 
                     </div>
 
                     <div class="flex items-center justify-between mt-6">
