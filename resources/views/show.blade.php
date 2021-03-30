@@ -79,6 +79,12 @@
                 <div class="text-xl leading-snug">12</div>
                 <div class="text-gray-400 text-xs leading-none">Votes</div>
             </div>
+
+            <button type="button"
+                class="w-32 h-11 text-xs bg-gray-200 font-semibold uppercase rounded-xl border border-gray-200 hover:border-gray-400 transition duration-150 ease-in px-6 py-3"
+            >
+                <span>Vote</span>
+            </button>
         </div>
     </div>
 </x-app-layout>
