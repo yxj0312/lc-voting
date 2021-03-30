@@ -56,10 +56,21 @@
     </div><!-- end ideas-container -->
 
     <div class="buttons-container flex items-center justify-between mt-6">
-        <button type="button"
-            class="flex items-center justify-center h-11 w-32 text-xs bg-blue font-semibold rounded-xl border border-blue hover:bg-blue-hover text-white transition duration-150 ease-in px-6 py-3"
-        >
-            <span class="ml-2">Reply</span>
-        </button>
+        <div class="flex items-center space-x-4 ml-6">
+            <button type="button"
+                class="flex items-center justify-center h-11 w-32 text-xs bg-blue font-semibold rounded-xl border border-blue hover:bg-blue-hover text-white transition duration-150 ease-in px-6 py-3"
+            >
+                <span class="ml-1">Reply</span>
+            </button>
+
+            <button type="button"
+                class="flex items-center justify-center w-36 h-11 text-xs bg-gray-200 font-semibold rounded-xl border border-gray-200 hover:border-gray-400 transition duration-150 ease-in px-6 py-3"
+            >
+                <span class="mr-1">Set Status</span>
+                <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </button>
+        </div>
     </div>
 </x-app-layout>
