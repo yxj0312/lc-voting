@@ -54,4 +54,12 @@
             </div>
         </div><!-- end idea-container -->
     </div><!-- end ideas-container -->
+
+    <div class="buttons-container flex items-center justify-between mt-6">
+        <button type="button"
+            class="flex items-center justify-center h-11 w-32 text-xs bg-blue font-semibold rounded-xl border border-blue hover:bg-blue-hover text-white transition duration-150 ease-in px-6 py-3"
+        >
+            <span class="ml-2">Reply</span>
+        </button>
+    </div>
 </x-app-layout>
