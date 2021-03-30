@@ -28,6 +28,8 @@
 
                     <div class="flex items-center justify-between mt-6">
                         <div class="flex items-center text-xs text-gray-400 font-semibold space-x-2">
+                            <div class="font-bold text-gray-900">John Doe</div>
+                            <div>&bull;</div>
                             <div>10 hours ago</div>
                             <div>&bull;</div>
                             <div>Category 1</div>
