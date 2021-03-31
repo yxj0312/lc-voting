@@ -26,3 +26,14 @@
     left: -40px;
     opacity: .07;
 }
+
+.comment-container:last-child::after {
+    position: absolute;
+    display: block;
+    top: 60px;
+    content: "";
+    width: 3px;
+    height: calc(100% - 60px);
+    background: #f7f8fc;
+    left: -40px;
+}
