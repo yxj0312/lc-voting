@@ -95,18 +95,19 @@
                     <a href="#">
                         <img src="https://source.unsplash.com/200x200/?face&crop=face&v=2" alt="avatar" class="w-14 h-14 rounded-xl">
                     </a>
+                    <div class="text-center uppercase text-blue text-xxs font-bold mt-1">Admin</div>
                 </div>
                 <div class="w-full mx-4">
-                    <!-- <h4 class="text-xl font-semibold">
-                        <a href="#" class="hover:underline">A random title can go here</a>
-                    </h4> -->
+                    <h4 class="text-xl font-semibold">
+                        <a href="#" class="hover:underline">Status Changed</a>
+                    </h4>
                     <div class="text-gray-600 mt-3 line-clamp-3">
                         Lorem ipsum dolor sit, 
                     </div>
 
                     <div class="flex items-center justify-between mt-6">
                         <div class="flex items-center text-xs text-gray-400 font-semibold space-x-2">
-                            <div class="font-bold text-gray-900">John Doe</div>
+                            <div class="font-bold text-blue">Andrea</div>
                             <div>&bull;</div>
                             <div>10 hours ago</div>
                         </div>
