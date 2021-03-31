@@ -24728,6 +24728,32 @@ select {
   -webkit-line-clamp: unset;
 }
 
+/* vertical line to the left of the comments */
+
+.comments-container::before {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -40px;
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: #78909c;
+  opacity: .07;
+}
+
+.comment-container::before {
+  position: relative;
+  display: block;
+  top: 57px;
+  content: "";
+  width: 23px;
+  height: 3px;
+  background: #78909c;
+  left: -40px;
+  opacity: .07;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -144242,4 +144268,3 @@ select {
     -webkit-line-clamp: unset;
   }
 }
-
