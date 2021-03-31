@@ -24743,7 +24743,7 @@ select {
 }
 
 .comment-container::before {
-  position: relative;
+  position: absolute;
   display: block;
   top: 57px;
   content: "";
@@ -24766,6 +24766,7 @@ select {
 }
 
 .is-admin::before {
+  position: absolute;
   width: 38px;
   height: 38px;
   border-radius: 38px;
