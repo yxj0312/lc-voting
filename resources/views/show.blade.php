@@ -88,7 +88,7 @@
         </div>
     </div>
 
-    <div class="comments-container relative space-y-6 ml-22 my-8">
+    <div class="comments-container relative space-y-6 ml-22 pt-6 my-8 mt-1">
         <div class="is-admin comment-container relative bg-white rounded-xl flex mt-4">
             <div class="flex flex-1 px-4 py-6">
                 <div class="flex-none">
