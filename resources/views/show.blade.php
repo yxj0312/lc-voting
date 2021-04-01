@@ -60,16 +60,26 @@
             <button type="button"
                 class="flex items-center justify-center h-11 w-32 text-sm bg-blue font-semibold rounded-xl border border-blue hover:bg-blue-hover text-white transition duration-150 ease-in px-6 py-3"
             >
-                <span class="ml-1">Reply</span>
+                Reply
             </button>
 
-            <div class="absolute  z-10 w-104 text-left font-semibold text-sm bg-white shadow-dialog rounded-xl mt-2">
+            <div class="absolute z-10 w-104 text-left font-semibold text-sm bg-white shadow-dialog rounded-xl mt-2">
                 <form action="#" class="space-y-4 px-4 py-6">
                     <div>
                         <textarea name="post_comment" id="post_comment" cols="30" rows="4"
                             class="w-full text-sm bg-gray-100 rounded-xl placeholder-gray-900 border-none px-4 py-2"
                             placeholder="Go ahead, don't be shy. Share your thoughts.."
                         ></textarea>
+                    </div>
+
+                    <div class="flex items-center space-x-3">
+                        <button type="button"
+                            class="flex items-center justify-center h-11 w-32 text-sm bg-blue font-semibold rounded-xl border border-blue hover:bg-blue-hover text-white transition duration-150 ease-in px-6 py-3"
+                        >
+                            Post Comment
+                        </button>
+
+
                     </div>
 
                 </form>
