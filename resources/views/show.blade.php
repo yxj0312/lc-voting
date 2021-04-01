@@ -63,6 +63,10 @@
                 <span class="ml-1">Reply</span>
             </button>
 
+            <div class="absolute  z-10 w-104 text-left font-semibold text-sm bg-white shadow-dialog rounded-xl mt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolore rem itaque molestiae odio ipsa explicabo fuga ipsum ab recusandae exercitationem temporibus laborum dolorum pariatur, distinctio, magni rerum asperiores placeat.
+            </div>
+
             <button type="button"
                 class="flex items-center justify-center w-36 h-11 text-sm bg-gray-200 font-semibold rounded-xl border border-gray-200 hover:border-gray-400 transition duration-150 ease-in px-6 py-3"
             >
