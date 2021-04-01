@@ -64,7 +64,16 @@
             </button>
 
             <div class="absolute  z-10 w-104 text-left font-semibold text-sm bg-white shadow-dialog rounded-xl mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolore rem itaque molestiae odio ipsa explicabo fuga ipsum ab recusandae exercitationem temporibus laborum dolorum pariatur, distinctio, magni rerum asperiores placeat.
+                <form action="#" class="space-y-4 px-4 py-6">
+                    <div>
+                        <textarea name="post_comment" id="post_comment" cols="30" rows="4"
+                            class="w-full text-sm bg-gray-100 rounded-xl placeholder-gray-900 border-none px-4 py-2"
+                            placeholder="Go ahead, don't be shy. Share your thoughts.."
+                        ></textarea>
+
+                    </div>
+
+                </form>
             </div>
 
             <button type="button"
