@@ -95,16 +95,41 @@
                 </div>
             </div>
 
-            
+            <div class="relative">
+                <button type="button"
+                    class="flex items-center justify-center w-36 h-11 text-sm bg-gray-200 font-semibold rounded-xl border border-gray-200 hover:border-gray-400 transition duration-150 ease-in px-6 py-3"
+                >
+                    <span>Set Status</span>
+                    <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
 
-            <button type="button"
-                class="flex items-center justify-center w-36 h-11 text-sm bg-gray-200 font-semibold rounded-xl border border-gray-200 hover:border-gray-400 transition duration-150 ease-in px-6 py-3"
-            >
-                <span>Set Status</span>
-                <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-            </button>
+                <div class="absolute z-10 w-76 text-left font-semibold text-sm bg-white shadow-dialog rounded-xl mt-2">
+                    <form action="#" class="space-y-4 px-4 py-6">
+                        <div class="space-y-2 mt-2">
+                            <div>
+                                <label for="" class="inline-flex items-center">
+                                    <input type="radio" name="" id="">
+                                    <span class="ml-2">Option 1</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="" class="inline-flex items-center">
+                                    <input type="radio" name="" id="">
+                                    <span class="ml-2">Option 1</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="" class="inline-flex items-center">
+                                    <input type="radio" name="" id="">
+                                    <span class="ml-2">Option 1</span>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
 
         <div class="flex items-center space-x-3">
