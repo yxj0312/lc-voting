@@ -107,23 +107,35 @@
 
                 <div class="absolute z-10 w-76 text-left font-semibold text-sm bg-white shadow-dialog rounded-xl mt-2">
                     <form action="#" class="space-y-4 px-4 py-6">
-                        <div class="space-y-2 mt-2">
+                        <div class="space-y-2">
                             <div>
                                 <label for="" class="inline-flex items-center">
-                                    <input type="radio" name="" id="">
-                                    <span class="ml-2">Option 1</span>
+                                    <input type="radio" checked="" name="status" class="bg-gray-200 text-gray-600 border-none" value="1">
+                                    <span class="ml-2">Open</span>
                                 </label>
                             </div>
                             <div>
                                 <label for="" class="inline-flex items-center">
-                                    <input type="radio" name="" id="">
-                                    <span class="ml-2">Option 1</span>
+                                    <input type="radio" name="status" class="bg-gray-200 text-purple border-none" value="2">
+                                    <span class="ml-2">Considering</span>
                                 </label>
                             </div>
                             <div>
                                 <label for="" class="inline-flex items-center">
-                                    <input type="radio" name="" id="">
-                                    <span class="ml-2">Option 1</span>
+                                    <input type="radio" name="status" class="bg-gray-200 text-yellow border-none" value="3">
+                                    <span class="ml-2">In Progress</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="" class="inline-flex items-center">
+                                    <input type="radio" name="status" class="bg-gray-200 text-green border-none" value="4">
+                                    <span class="ml-2">Implemented</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="" class="inline-flex items-center">
+                                    <input type="radio" name="status" class="bg-gray-200 text-red border-none" value="5">
+                                    <span class="ml-2">Closed</span>
                                 </label>
                             </div>
                         </div>
