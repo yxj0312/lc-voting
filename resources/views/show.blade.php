@@ -95,8 +95,12 @@
                 </div>
             </div>
 
-            <div class="relative">
-                <button type="button"
+            <div 
+                x-data="{ isOpen: false }"
+                class="relative">
+                <button
+                    @click="isOpen = !isOpen"
+                    type="button"
                     class="flex items-center justify-center w-36 h-11 text-sm bg-gray-200 font-semibold rounded-xl border border-gray-200 hover:border-gray-400 transition duration-150 ease-in px-6 py-3"
                 >
                     <span>Set Status</span>
@@ -105,7 +109,12 @@
                     </svg>
                 </button>
 
-                <div class="absolute z-10 w-76 text-left font-semibold text-sm bg-white shadow-dialog rounded-xl mt-2">
+                <div 
+                    x-cloak
+                    x-show.transition.origin.top.left.duration="isOpen"
+                    @click.away="isOpen = false"
+                    @keydown.escape.window = "isOpen = false"
+                    class="absolute z-10 w-76 text-left font-semibold text-sm bg-white shadow-dialog rounded-xl mt-2">
                     <form action="#" class="space-y-4 px-4 py-6">
                         <div class="space-y-2">
                             <div>
