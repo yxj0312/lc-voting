@@ -77,6 +77,7 @@
                                 <ul 
                                     x-show="isOpen"
                                     @click.away="isOpen = false"
+                                    @keydown.escape.window = "isOpen = false"
                                     class="absolute w-44 text-left font-semibold bg-white shadow-dialog rounded-xl py-3 ml-8">
                                     <li class=""><a href="#" class="hover:bg-gray-100 block px-5 py-3">Mark as Spam</a></li>
                                     <li class=""><a href="#" class="hover:bg-gray-100 block px-5 py-3">Delete Post</a></li>
