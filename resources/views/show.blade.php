@@ -57,14 +57,23 @@
 
     <div class="buttons-container flex items-center justify-between mt-6">
         <div class="flex items-center space-x-4 ml-6">
-            <div class="relative">
-                <button type="button"
+            <div 
+                x-data="{ isOpen: false }"
+                class="relative">
+                <button 
+                    @click="isOpen = !isOpen"
+                    type="button"
                     class="flex items-center justify-center h-11 w-32 text-sm bg-blue font-semibold rounded-xl border border-blue hover:bg-blue-hover text-white transition duration-150 ease-in px-6 py-3"
                 >
                     Reply
                 </button>
 
-                <div class="hidden absolute z-10 w-104 text-left font-semibold text-sm bg-white shadow-dialog rounded-xl mt-2">
+                <div 
+                    x-cloak
+                    x-show.transition.origin.top.left.duration="isOpen"
+                    @click.away="isOpen = false"
+                    @keydown.escape.window = "isOpen = false"
+                    class="absolute z-10 w-104 text-left font-semibold text-sm bg-white shadow-dialog rounded-xl mt-2">
                     <form action="#" class="space-y-4 px-4 py-6">
                         <div>
                             <textarea name="post_comment" id="post_comment" cols="30" rows="4"
