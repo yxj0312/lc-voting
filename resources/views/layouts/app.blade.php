@@ -47,7 +47,7 @@
             </div>
         </header>
 
-        <main class="container mx-auto max-w-custom flex">
+        <main class="container mx-auto max-w-custom flex flex-col md:flex-row">
             <div class="w-70 mr-5">
                 <div class="bg-white md:sticky md:top-8 border-2 border-blue rounded-xl mt-16"
                     style="
