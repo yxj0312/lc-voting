@@ -48,7 +48,7 @@
         </header>
 
         <main class="container mx-auto max-w-custom flex flex-col md:flex-row">
-            <div class="w-70 mr-5">
+            <div class="w-70 mx-auto md:mx-1 mr-5">
                 <div class="bg-white md:sticky md:top-8 border-2 border-blue rounded-xl mt-16"
                     style="
                         border-image-source:linear-gradient(to bottom, rgba(50,138,241,0.22), rgba(99,123,55,0));
