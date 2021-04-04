@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="w-175">
-                <nav class="flex items-center justify-between text-xs">
+                <nav class="hidden md:flex items-center justify-between text-xs">
                     <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
                         <li>
                             <a href="#" class="border-b-4 pb-3 border-blue">All ideas(87)</a>
