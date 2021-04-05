@@ -90,7 +90,7 @@
                                 <div class="text-sm font-bold leading-none">12</div>
                                 <div class="text-xxs font-semibold leading-none text-gray-400">Votes</div>
                             </div>
-                            <button class="w-20 bg-blue text-white border border-gray-200 font-bold text-xxs uppercase rounded-xl hover:border-gray-400 transition duration-150 ease-in px-4 py-3 -mx-4">
+                            <button class="w-20 bg-blue text-white border border-gray-200 font-bold text-xxs uppercase rounded-xl hover:border-gray-400 transition duration-150 ease-in px-4 py-3 -mx-5">
                                 Voted
                             </button>
                         </div>
