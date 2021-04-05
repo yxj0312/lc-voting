@@ -47,7 +47,7 @@
                     </a>
                 </div>
                 <div class="w-full flex flex-col justify-between mx-4 ">
-                    <h4 class="text-xl font-semibold">
+                    <h4 class="text-xl font-semibold mt-2 md:mt-0">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
                     <div class="text-gray-600 mt-3 line-clamp-3">
