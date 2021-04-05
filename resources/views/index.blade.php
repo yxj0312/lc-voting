@@ -65,7 +65,7 @@
                         </div>
                         <div 
                             x-data="{ isOpen: false }"
-                            class="flex items-center space-x-2">
+                            class="flex items-center space-x-2 mt-2 md:mt-0">
                             <div class="bg-gray-200 text-xxs font-bold uppercase leading-none border rounded-full text-center w-28 h-7 py-2 px-4">
                                 Open
                             </div>
