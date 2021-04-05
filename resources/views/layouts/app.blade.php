@@ -101,7 +101,7 @@
 
                 </div>
             </div>
-            <div class="w-175">
+            <div class="w-full px-2 md:w-175">
                 <nav class="hidden md:flex items-center justify-between text-xs">
                     <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
                         <li>
