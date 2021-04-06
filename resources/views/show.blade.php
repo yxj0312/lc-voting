@@ -65,7 +65,7 @@
     </div><!-- end ideas-container -->
 
     <div class="buttons-container flex items-center justify-between mt-6">
-        <div class="flex items-center space-x-4 ml-6">
+        <div class="flex items-center space-x-4 md:ml-6">
             <div 
                 x-data="{ isOpen: false }"
                 class="relative">
