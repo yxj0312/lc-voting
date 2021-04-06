@@ -22,11 +22,11 @@
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
-                    <div class="text-gray-600 mt-3 line-clamp-3">
+                    <div class="text-gray-600 mt-3">
                         Lorem ipsum dolor sit, 
                     </div>
 
-                    <div class="flex items-center justify-between mt-6">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mt-6">
                         <div class="flex items-center text-xs text-gray-400 font-semibold space-x-2">
                             <div class="font-bold text-gray-900">John Doe</div>
                             <div>&bull;</div>
