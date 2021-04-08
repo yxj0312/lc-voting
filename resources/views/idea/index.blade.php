@@ -57,7 +57,7 @@
 
                         <div class="flex flex-col md:flex-row md:items-center justify-between mt-6">
                             <div class="flex items-center text-xs text-gray-400 font-semibold space-x-2">
-                                <div>{{ $idea->created_at->diffForHumans()}}</div>
+                                <div>{{ $idea->created_at->diffForHumans() }}</div>
                                 <div>&bull;</div>
                                 <div>Category 1</div>
                                 <div>&bull;</div>
