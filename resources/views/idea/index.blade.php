@@ -49,15 +49,15 @@
                     </div>
                     <div class="w-full flex flex-col justify-between mx-4 ">
                         <h4 class="text-xl font-semibold mt-2 md:mt-0">
-                            <a href="#" class="hover:underline">A random title can go here</a>
+                            <a href="#" class="hover:underline">{{ $idea->title }}</a>
                         </h4>
                         <div class="text-gray-600 mt-3 line-clamp-3">
-                            Lorem ipsum dolor sit, 
+                            {{ $idea->description }} 
                         </div>
 
                         <div class="flex flex-col md:flex-row md:items-center justify-between mt-6">
                             <div class="flex items-center text-xs text-gray-400 font-semibold space-x-2">
-                                <div>10 hours ago</div>
+                                <div>{{ $idea->created_at->diffForHumans()}}</div>
                                 <div>&bull;</div>
                                 <div>Category 1</div>
                                 <div>&bull;</div>
