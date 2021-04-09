@@ -50,7 +50,7 @@ class IdeaController extends Controller
     {
         return view('idea.show', [
             'idea' => $idea,
-        ])
+        ]);
     }
 
     /**
