@@ -2,17 +2,17 @@
 
 namespace Tests\Unit;
 
-use PHPUnit\Framework\TestCase;
+use App\Models\User;
+use Tests\TestCase;
 
 class UserTest extends TestCase
 {
-    /**
-     * A basic unit test example.
-     *
-     * @return void
-     */
-    public function test_example()
-    {
-        $this->assertTrue(true);
-    }
+   /** @test */
+   function user_can_generate_gravatar_default_image_when_no_email_found()
+   {
+       $user = User::factory()->create([
+           'name' => 'Andre',
+           'email' => 'afakemail@fakemail.com'
+       ]);
+   }
 }
