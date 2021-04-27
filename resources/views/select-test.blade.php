@@ -165,6 +165,8 @@
                                     options[key] = this.data[key]
                                     return options
                                 }, {})
+
+                            console.log(this.value)
                         }))
                     },
 
