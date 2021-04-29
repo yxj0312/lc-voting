@@ -1,9 +1,10 @@
-<form action="" method="post" class="space-y-4 px-4 py-6">
+<form wire:submit.prevent="createIdea" action="#" method="post" class="space-y-4 px-4 py-6">
     <div>
-        <input type="text" class="text-xm w-full bg-gray-100 border-none rounded-xl placeholder-gray-900 px-4 py-2" placeholder="Your Idea">
+        <!-- defer:doesn't make any request until we hit submit button -->
+        <input wire:model.defer="title" type="text" class="text-xm w-full bg-gray-100 border-none rounded-xl placeholder-gray-900 px-4 py-2" placeholder="Your Idea">
     </div>
     <div>
-        <select name="category_add" id="category_add" class="w-full bg-gray-100 text-sm rounded-xl border-none px-4 py-2">
+        <select wire:model.defer="category" name="category_add" id="category_add" class="w-full bg-gray-100 text-sm rounded-xl border-none px-4 py-2">
             <option value="Category One" class="">Category One</option>
             <option value="Category One" class="">Category One</option>
             <option value="Category One" class="">Category One</option>
@@ -12,7 +13,7 @@
     </div>
 
     <div>
-        <textarea name="idea" id="idea" cols="30" rows="4" 
+        <textarea  wire:model.defer="description" name="idea" id="idea" cols="30" rows="4" 
         class="w-full bg-gray-100 border-none rounded-xl placeholder-gray-900 text-sm px-4 py-2"
         placeholder="Describe your idea"
         ></textarea>
