@@ -2,6 +2,9 @@
     <div>
         <!-- defer:doesn't make any request until we hit submit button -->
         <input wire:model.defer="title" type="text" class="text-xm w-full bg-gray-100 border-none rounded-xl placeholder-gray-900 px-4 py-2" placeholder="Your Idea">
+         @error('title')
+            <p class="text-red text-xs mt-1">{{ $message }}</p>
+        @enderror
     </div>
     <div>
         <select wire:model.defer="category" name="category_add" id="category_add" class="w-full bg-gray-100 text-sm rounded-xl border-none px-4 py-2">
@@ -9,6 +12,9 @@
                 <option value="{{ $category->id }}">{{ $category->name }}</option>
             @endforeach
         </select>
+        @error('category')
+            <p class="text-red text-xs mt-1">{{ $message }}</p>
+        @enderror
     </div>
 
     <div>
@@ -16,6 +22,9 @@
         class="w-full bg-gray-100 border-none rounded-xl placeholder-gray-900 text-sm px-4 py-2"
         placeholder="Describe your idea"
         ></textarea>
+        @error('description')
+            <p class="text-red text-xs mt-1">{{ $message }}</p>
+        @enderror
     </div>
     <div class="flex items-center justify-between space-x-3">
         <button type="button"
