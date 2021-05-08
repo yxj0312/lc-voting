@@ -10,7 +10,8 @@ class IdeasIndex extends Component
 {
     public function render()
     {
-        $ideas = Idea::with('user', 'category', 'status')
+        return view('livewire.ideas-index', [
+            'ideas' => Idea::with('user', 'category', 'status')
                 ->addSelect([
                     'voted_by_user' => Vote::select('id')
                         ->where('user_id', auth()->id())
@@ -18,9 +19,8 @@ class IdeasIndex extends Component
                 ])
                 ->withCount('votes')
                 ->latest('id')
-                ->simplePaginate(Idea::PAGINATION_COUNT);
-
-            return response(view('livewire.ideas-index', compact('ideas')))
-                ->header('Cache-Control', 'no-cache, no-store, must-revalidate');
+                ->simplePaginate(Idea::PAGINATION_COUNT)
+        ]);
+        
     }
 }
