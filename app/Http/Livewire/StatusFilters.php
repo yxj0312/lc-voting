@@ -11,7 +11,16 @@ class StatusFilters extends Component
     protected $queryString = [
         'status',
     ];
-    
+
+    public function setStatus($newStatus)
+    {
+        $this->status = $newStatus;
+
+        return redirect()->route('idea.index', [
+            'status' => $this->status,
+        ]);
+    }
+
     public function render()
     {
         return view('livewire.status-filters');
