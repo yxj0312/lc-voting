@@ -9,6 +9,7 @@ use Livewire\Component;
 class StatusFilters extends Component
 {
     public $status = 'All';
+    public $statusCount;
 
     protected $queryString = [
         'status',
